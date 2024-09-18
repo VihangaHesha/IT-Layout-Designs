@@ -4,6 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Case 03</title>
+    <style>
+      .main-circle {
+        width: 200px;
+        height: 200px;
+        border: 10px solid gray;
+        border-radius: 50%;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .inner-circle {
+        width: 180px;
+        height: 180px;
+        border: 10px solid red;
+        border-radius: 50%;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .scroling-circle-01 {
+        width: 180px;
+        height: 180px;
+        background-color: purple;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .scroling-circle-02 {
+        width: 180px;
+        height: 180px;
+        background-color: purple;
+        border-radius: 50%;
+        position: absolute;
+        top: 125%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .scroling-circle-03 {
+        margin-bottom: 100px;
+        width: 180px;
+        height: 180px;
+        background-color: purple;
+        border-radius: 50%;
+        position: absolute;
+        top: 225%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      p {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 70px;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="scroling-circle-01"><p>Hello</p></div>
+    <div class="scroling-circle-02"><p>Welcome to</p></div>
+    <div class="scroling-circle-03">
+      <p>Institute of Software Engineering</p>
+    </div>
+    <div class="container">
+      <div class="main-circle">
+        <div class="inner-circle"></div>
+      </div>
+    </div>
+  </body>
 </html>
