@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Case 01</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .box-01 {
+        width: 50vw;
+        height: 50vh;
+        background-color: red;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .box-02 {
+        width: 50vw;
+        height: 50vh;
+        background-color: orange;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+      .box-03 {
+        width: 50vw;
+        height: 50vh;
+        background-color: darkgreen;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      .box-04 {
+        width: 50vw;
+        height: 50vh;
+        background-color: deeppink;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+      .inner-circle {
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+      }
+      .inner-box {
+        width: 75px;
+        height: 75px;
+        background-color: red;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .center-box {
+        width: 150px;
+        height: 150px;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .center-inner-circle {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        background-color: red;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .quater-circle-top-left {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-bottom-right-radius: 100%;
+      }
+      .quater-circle-top-center {
+        margin: -75px 0 0 0;
+        width: 150px;
+        height: 150px;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        border-radius: 100%;
+        transform: translateX(-55%);
+      }
+      .quater-circle-top-right {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-bottom-left-radius: 100%;
+      }
+      .quater-circle-bottom-right {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-top-left-radius: 100%;
+      }
+      .quater-circle-bottom-center {
+        margin: 0 0 -75px 0;
+        width: 150px;
+        height: 150px;
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        border-radius: 100%;
+        transform: translateX(-55%);
+      }
+      .quater-circle-bottom-left {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-top-right-radius: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ============= Red Box ============= -->
+    <div class="box-01">
+      <section class="inner-circle">
+        <div class="inner-box"></div>
+      </section>
+    </div>
+    <!-- ============= Orange Box ============= -->
+    <div class="box-02">
+      <section class="inner-circle">
+        <div class="inner-box"></div>
+      </section>
+    </div>
+
+    <!-- ============= Green Box ============= -->
+    <div class="box-03">
+      <section class="inner-circle">
+        <div class="inner-box"></div>
+      </section>
+    </div>
+
+    <!-- ============= Deep Pink Box ============= -->
+    <div class="box-04">
+      <section class="inner-circle">
+        <div class="inner-box"></div>
+      </section>
+    </div>
+
+    <!-- ============= Center Box ============= -->
+    <section class="center-box">
+      <div class="center-inner-circle"></div>
+    </section>
+
+    <div class="quater-circle-top-left"></div>
+    <div class="quater-circle-top-center"></div>
+    <div class="quater-circle-top-right"></div>
+    <div class="quater-circle-bottom-right"></div>
+    <div class="quater-circle-bottom-center"></div>
+    <div class="quater-circle-bottom-left"></div>
+  </body>
+</html>
