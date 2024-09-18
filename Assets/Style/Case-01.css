@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+}
+.box-01 {
+  width: 50vw;
+  height: 50vh;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.box-02 {
+  width: 50vw;
+  height: 50vh;
+  background-color: orange;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.box-03 {
+  width: 50vw;
+  height: 50vh;
+  background-color: darkgreen;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.box-04 {
+  width: 50vw;
+  height: 50vh;
+  background-color: deeppink;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.inner-circle {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.inner-box {
+  width: 75px;
+  height: 75px;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center-box {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center-inner-circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.quater-circle-top-left {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom-right-radius: 100%;
+}
+.quater-circle-top-center {
+  margin: -75px 0 0 0;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-radius: 100%;
+  transform: translateX(-55%);
+}
+.quater-circle-top-right {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: 100%;
+}
+.quater-circle-bottom-right {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 100%;
+}
+.quater-circle-bottom-center {
+  margin: 0 0 -75px 0;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  border-radius: 100%;
+  transform: translateX(-55%);
+}
+.quater-circle-bottom-left {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top-right-radius: 100%;
+}
