@@ -1,0 +1,62 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  & p {
+    margin: 0;
+  }
+}
+.case-01 {
+  position: sticky;
+  height: 100vh;
+  background-color: white;
+  top: 0;
+  & header {
+    background-color: red;
+    height: 10vh;
+  }
+}
+.case-02 {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  background-color: lightblue;
+  & header {
+    background-color: darkblue;
+    height: 10vh;
+  }
+}
+.case-03 {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  background-color: gray;
+  & header {
+    background-color: rgb(56, 54, 54);
+    height: 10vh;
+  }
+}
+.case-04 {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  background-color: rgb(255, 0, 0);
+  & header {
+    background-color: darkred;
+    height: 10vh;
+  }
+}
+.text {
+  font-weight: bold;
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header p {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  color: white;
+  font-size: 1.5rem;
+}

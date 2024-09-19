@@ -4,16 +4,138 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Internet Technologies Assignment 03</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(11, 2, 32);
+      }
+
+      h1 {
+        text-align: center;
+        color: #f1efef;
+        margin-top: 50px;
+      }
+
+      p {
+        text-align: center;
+        color: #f1efef;
+        margin-top: 10px;
+      }
+
+      .navigations {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+      }
+
+      nav ul li {
+        margin: 0 10px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: #f1efef;
+        font-weight: bold;
+      }
+
+      #profile-img {
+        position: absolute;
+        top: 35%;
+        left: 70%;
+      }
+
+      #profile-img img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .card-container {
+        flex-wrap: wrap;
+        width: 60%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px 0;
+      }
+      .card {
+        margin-top: 20px;
+        background-color: rgb(36, 33, 71);
+        width: 300px;
+        border-radius: 20px;
+        padding: 20px;
+        & p {
+          text-align: center;
+        }
+        & a {
+          color: #f1efef;
+          display: flex;
+          justify-content: center;
+          text-decoration: none;
+        }
+      }
+    </style>
   </head>
   <body>
-    <h1>Internet Technologies Assignment 03</h1>
-    <p>This is a Website that showcases some cases of HTML and CSS</p>
-    <ul>
-      <li><a href="/Pages/Case-01.html" target="_blank">Case 01</a></li>
-      <li><a href="/Pages/Case-02.html" target="_blank">Case 02</a></li>
-      <li><a href="/Pages/Case-03.html" target="_blank">Case 03</a></li>
-      <li><a href="/Pages/Case-04.html" target="_blank">Case 04</a></li>
-      <li><a href="/Pages/Case-05.html" target="_blank">Case 05</a></li>
-    </ul>
+    <main>
+      <h1>Internet Technologies Assignment 03</h1>
+      <p>This is a Website that showcases some cases of HTML and CSS</p>
+    </main>
+    <div id="profile-img">
+      <img
+        src="/Assets/Images/WhatsApp Image 2024-07-22 at 22.09.54.jpeg"
+        alt="An image of Vihanga Heshan Bandara"
+      />
+      <h3 style="color: #f1efef; text-align: center">Vihanga Heshan Bandara</h3>
+    </div>
+    <div class="card-container">
+      <div class="card">
+        <a href="/Pages/Case-01.html" target="_blank">Case 01</a>
+        <br />
+        <p>
+          This is the case one of the IT Assignment.This case mainly focus the
+          positioning in CSS.Mainly there are four types of positioning in CSS.
+          They are , Static, Relative, Absolute and Fixed.
+        </p>
+      </div>
+      <div class="card">
+        <a href="/Pages/Case-02.html" target="_blank">Case 02</a>
+        <br />
+        <p>
+          This is the case two of the IT Assignment.This case mainly focus the
+          positioning and flexbox model in CSS. Mainly there are four types of
+          display types in flexbox model. They are , flex, inline-flex, grid and
+          inline-grid. Additionaly in this case we have to code a simple index
+          page with some content.
+        </p>
+      </div>
+      <div class="card">
+        <a href="/Pages/Case-03.html" target="_blank">Case 03</a>
+        <br />
+        <p>
+          This is the case three of the IT Assignment.This case mainly focus the
+          positioning in CSS.In this case we have to use only the Absolute and
+          Relative as the positioning types.
+        </p>
+      </div>
+      <div class="card">
+        <a href="/Pages/Case-04.html" target="_blank">Case 04</a>
+        <br />
+        <p>
+          This is the case four of the IT Assignment.This case mainly focus the
+          positioning in CSS.Mainly there are four types of positioning in CSS.
+          They are , Static, Relative, Absolute and Fixed. Additionaly in this
+          case we have to focus on the sticky type of positioning.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
