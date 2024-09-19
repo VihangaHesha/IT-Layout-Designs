@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Case 03</title>
     <style>
+      body {
+        height: 185vh;
+      }
       .main-circle {
         width: 200px;
         height: 200px;
@@ -26,37 +29,44 @@
         transform: translate(-50%, -50%);
       }
       .scroling-circle-01 {
+        margin-top: 279px;
         width: 180px;
         height: 180px;
         background-color: purple;
         border-radius: 50%;
-        position: absolute;
+        position: relative;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
       }
       .scroling-circle-02 {
+        margin-top: 200px;
         width: 180px;
         height: 180px;
-        background-color: purple;
+        background-color: steelblue;
         border-radius: 50%;
-        position: absolute;
+        position: relative;
         top: 125%;
         left: 50%;
         transform: translate(-50%, -50%);
       }
       .scroling-circle-03 {
-        margin-bottom: 100px;
+        margin-top: 200px;
+        margin-bottom: 20px;
         width: 180px;
         height: 180px;
-        background-color: purple;
+        background-color: orangered;
         border-radius: 50%;
-        position: absolute;
+        position: relative;
         top: 225%;
         left: 50%;
         transform: translate(-50%, -50%);
       }
       p {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         color: white;
         font-size: 20px;
         text-align: center;
@@ -65,15 +75,17 @@
     </style>
   </head>
   <body>
-    <div class="scroling-circle-01"><p>Hello</p></div>
-    <div class="scroling-circle-02"><p>Welcome to</p></div>
-    <div class="scroling-circle-03">
-      <p>Institute of Software Engineering</p>
-    </div>
-    <div class="container">
-      <div class="main-circle">
-        <div class="inner-circle"></div>
+    <main>
+      <div class="scroling-circle-01"><p>Hello</p></div>
+      <div class="scroling-circle-02"><p>Welcome to</p></div>
+      <div class="scroling-circle-03">
+        <p>Institute of Software Engineering</p>
       </div>
-    </div>
+      <div class="container">
+        <div class="main-circle">
+          <div class="inner-circle"></div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
