@@ -1,0 +1,77 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(11, 2, 32);
+}
+
+h1 {
+  text-align: center;
+  color: #f1efef;
+  margin-top: 50px;
+}
+
+p {
+  text-align: center;
+  color: #f1efef;
+  margin-top: 10px;
+}
+
+.navigations {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f1efef;
+  font-weight: bold;
+}
+
+#profile-img {
+  position: absolute;
+  top: 35%;
+  left: 70%;
+}
+
+#profile-img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-container {
+  flex-wrap: wrap;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 0;
+}
+.card {
+  margin-top: 20px;
+  background-color: rgb(36, 33, 71);
+  width: 300px;
+  border-radius: 20px;
+  padding: 20px;
+  & p {
+    text-align: center;
+  }
+  & a {
+    color: #f1efef;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+}
