@@ -9,31 +9,30 @@
         margin: 0;
       }
       .box {
-        height: 100%;
-        width: 100%;
         border: 1px solid black;
       }
       .container {
         display: grid;
-        grid-template-rows: 100px 100px 100px;
-        grid-template-columns: 100px 100px 100px 100px;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100vw;
+        height: 100vh;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="box" style="background-color: red">1</div>
-      <div class="box" style="background-color: green">2</div>
-      <div class="box" style="background-color: orangered">3</div>
-      <div class="box" style="background-color: purple">4</div>
-      <div class="box" style="background-color: palevioletred">5</div>
-      <div class="box" style="background-color: blue">6</div>
-      <div class="box" style="background-color: brown">7</div>
-      <div class="box" style="background-color: violet">8</div>
-      <div class="box" style="background-color: rebeccapurple">9</div>
-      <div class="box" style="background-color: yellow">10</div>
-      <div class="box" style="background-color: steelblue">11</div>
-      <div class="box" style="background-color: aqua">12</div>
+      <div class="box" style="background-color: red"></div>
+      <div class="box" style="background-color: green"></div>
+      <div class="box" style="background-color: orangered"></div>
+      <div class="box" style="background-color: purple"></div>
+      <div class="box" style="background-color: palevioletred"></div>
+      <div class="box" style="background-color: blue"></div>
+      <div class="box" style="background-color: brown"></div>
+      <div class="box" style="background-color: violet"></div>
+      <div class="box" style="background-color: rebeccapurple"></div>
+      <div class="box" style="background-color: yellow"></div>
+      <div class="box" style="background-color: steelblue"></div>
+      <div class="box" style="background-color: aqua"></div>
     </div>
   </body>
 </html>
